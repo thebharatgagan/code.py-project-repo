@@ -2,19 +2,18 @@
 user_name = '@git10'
 pass_word = 'git01@'
 
-username = input("\nEnter the Username: ")
-if(user_name == username):
-    print(" ")
-else:
-    print("please enter correct username\n")
-    username = input('\n Enter the Username Again: ')
-
-password = input("Enter the Password: ")
-if(pass_word == password):
-    print("\nYou are Successfully Login in Your Account\n")
-else:
-    print("Incorrect Password, Please Try Again Later\n")
+while True: # It is used for, when username and password is incorrect, then reasked to correct username and password:
+    username = input("\nEnter the Username: ")
+    if(user_name == username):
+        print(" ")
+    else:
+        print("please enter correct username\n")
     password = input("Enter the Password: ")
+    if(pass_word == password):
+        print("\nYou are Successfully Login in Your Account\n")
+        break
+    else:
+        print("Incorrect Password, Please Try Again Later\n")
     
 # Please Fill The Details Carefully:
 
