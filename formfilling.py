@@ -25,6 +25,7 @@ Email = input("Enter the Email: ")
 Pno = int(input("Enter The 10- Digit Mobile Number: "))
 
 
+print("\nCheck the Details Carefully\n")
 print(name)
 print(Age)
 print(Gender)
@@ -33,5 +34,7 @@ print(Pno)
 print(Email)
 
 # Finally Write your Signature, if all the ready to submit:
+signature = input("\nSignature: ")
 
+print('\nThanks Dear', name)
 #Ent the Program.
