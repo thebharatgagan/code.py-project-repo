@@ -1,5 +1,5 @@
 carspeed = int(input("Enter the Car Speed: "))
-print("your speed =", carspeed, "km/hr")
+print("your speed =",carspeed, "km/hr")
 if(carspeed == 50):
     print("\nyou are in limit, safe drive and follow the rules, as per given.\n")
 elif(carspeed == 70):
