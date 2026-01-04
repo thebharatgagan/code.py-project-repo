@@ -1,4 +1,5 @@
-while True:
+while True:   # It is used to run the code again and again: 
+    
     num1 = float(input("\nEnter the First Value: "))
     num2 = float(input("Enter the Second Value: "))
     
@@ -6,15 +7,15 @@ while True:
     operator = input("Enter the Operator: ")
     
     if(operator == "+"):
-        print('Result-', num1 + num2)
+        print('Result:', num1 + num2)
     elif(operator == "-"):
-        print('Result-' , num1 - num2)
+        print('Result:' , num1 - num2)
     elif(operator == "*"):
-        print('Result-', num1 * num2)
+        print('Result:', num1 * num2)
     elif(operator == "/"):
         if(num2 != 0):
-            print('Result-', num1 / num2)
+            print('Result:', num1 / num2)
     else:
-        print("Invalid Operators")
+        print("Invalid Operators")  
     
 # End the Program.
