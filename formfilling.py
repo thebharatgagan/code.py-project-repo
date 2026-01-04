@@ -1,0 +1,41 @@
+# Make Login Page With Given Username & Password;
+user_name = '@git10'
+pass_word = 'git01@'
+
+username = input("\nEnter the Username: ")
+if(user_name == username):
+    print(" ")
+else:
+    print("please enter correct username\n")
+    username = input('\n Enter the Username Again: ')
+
+password = input("Enter the Password: ")
+if(pass_word == password):
+    print("\nYou are Successfully Login in Your Account\n")
+else:
+    print("Incorrect Password, Please Try Again Later\n")
+    password = input("Enter the Password: ")
+    
+# Please Fill The Details Carefully:
+
+name = str(input("Enter the Name: "))
+Age = int(input("Enter the Age: "))
+Gender = input("Enter the Male/female: ")
+Address = input("Enter the Corresponding Address: ")
+Email = input("Enter the Email: ")
+Pno = int(input("Enter The 10- Digit Mobile Number: "))
+
+
+print("\n Check the Details Carefully\n")
+print(name)
+print(Age)
+print(Gender)
+print(Address)
+print(Pno)
+print(Email)
+
+# Finally Write your Signature, if all the ready to submit:
+signature = input("\nSignature:")
+
+print("\nThank You Sir/Madam to Fill this Form\n")
+#Ent the Program.
