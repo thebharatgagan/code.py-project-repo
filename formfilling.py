@@ -25,7 +25,6 @@ Email = input("Enter the Email: ")
 Pno = int(input("Enter The 10- Digit Mobile Number: "))
 
 
-print("\n Check the Details Carefully\n")
 print(name)
 print(Age)
 print(Gender)
@@ -34,7 +33,5 @@ print(Pno)
 print(Email)
 
 # Finally Write your Signature, if all the ready to submit:
-signature = input("\nSignature:")
 
-print("\nThank You Sir/Madam to Fill this Form\n")
 #Ent the Program.
